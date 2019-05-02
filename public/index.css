@@ -1,0 +1,56 @@
+.fieldset2{
+  padding: 15px;
+}
+
+body{
+	background-color: #baa161;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	font-weight: 400;
+}
+.tabl{
+  align: center;
+  width:100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+}
+
+th,td{
+  border: 1px solid black;
+}
+
+ul li {
+  text-align: center;
+  background: #cce5ff;
+  margin: 5px;
+}
+
+.submitPost{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.deletePost{
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
