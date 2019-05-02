@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 let postSchema = mongoose.Schema({
-    // id : {type : String, required : true, unique: true},
     title : {type : String, required : true},
     content: {type : String, required : true},
     author : {type : String, required : true},
